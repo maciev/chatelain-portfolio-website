@@ -3,7 +3,9 @@ module.exports = {
   future: {},
   purge: [],
   theme: {
-    extend: {},
+    fontFamily: {
+      granville: ["ui-granville"],
+    },
   },
   variants: {},
   plugins: [],

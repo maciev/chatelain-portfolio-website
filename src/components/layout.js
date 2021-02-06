@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import Card from "./card"
 import Header from "./header"
 import "./layout.css"
 
@@ -25,15 +24,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header />
-      <div className="bg-blue-400 px-16 ">
-        <main>{children}</main>
-        <div id="card component">
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-        </div>
+      <div className="bg-gradient-to-tl from-blue-500  to-white opacity-75 px-16 ">
+        <Header />
+        <main className="py-24 border-b-2 border-indigo-600">{children}</main>
 
         <footer>
           © {new Date().getFullYear()}, Built with
@@ -46,7 +39,7 @@ const Layout = ({ children }) => {
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.element,
 }
 
 export default Layout

@@ -6,7 +6,7 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className="flex flex-wrap items-center justify-between p-2 bg-gray-600">
+    <nav className="flex flex-wrap items-center justify-between px-5 py-4">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
         <span className="text-xl font-semibold tracking-tight">
           {siteTitle}
@@ -32,7 +32,7 @@ function Header({ siteTitle }) {
           isExpanded ? `block` : `hidden`
         } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-sm lg:flex-grow">
+        <div className="text-sm lg:flex-grow flex justify-end">
           <Link
             to={`/`}
             href="#responsive-header"
@@ -47,14 +47,7 @@ function Header({ siteTitle }) {
             page 2
           </Link>
         </div>
-        <div>
-          <a
-            href="#download"
-            className="inline-block px-4 py-2 mt-4 text-sm leading-none text-white border border-white rounded hover:border-transparent hover:text-black hover:bg-white lg:mt-0"
-          >
-            Download
-          </a>
-        </div>
+        <div></div>
       </div>
     </nav>
   )

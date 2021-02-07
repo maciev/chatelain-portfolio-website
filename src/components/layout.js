@@ -24,9 +24,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className="bg-gradient-to-tl from-blue-500  to-white opacity-75 px-16 ">
+      <div className="bg-gradient-to-tl from-blue-500  to-white opacity-75 ">
         <Header />
-        <main className="py-24 border-b-2 border-indigo-600">{children}</main>
+        <main className="py-24 px-16 ">{children}</main>
 
         <footer>
           © {new Date().getFullYear()}, Built with

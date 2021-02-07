@@ -99,3 +99,13 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/kosvrouvas/gatsby-tailwindcss-starter)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+<!--DONE-->
+<!--delete download button on header
+move header links to right side (end)-->
+<!--apply flex row to index cards on front page-->
+<!--allow cards to flow - 1 per row-->
+
+<!--TO-DO-->
+<!--pass props to cards-->
+<!--header, pages to show when md size-->

@@ -32,11 +32,11 @@ function Header({ siteTitle }) {
           isExpanded ? `block` : `hidden`
         } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-sm lg:flex-grow flex justify-end">
+        <div className="text-sm flex lg:flex-grow md:flex-grow  justify-end bg-black">
           <Link
             to={`/`}
             href="#responsive-header"
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            className="block mt-4 mr-4 text-white lg:inline-block  lg:mt-0 hover:text-white"
           >
             Home
           </Link>

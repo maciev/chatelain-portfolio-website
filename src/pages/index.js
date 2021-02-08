@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Card from "../components/card"
 
@@ -17,6 +16,7 @@ const IndexPage = () => (
     <p className="border-b-2 border-indigo-600 pb-6">
       My specialities include React, Redux, Prisma, TypeORM, and others
     </p>
+    {/*pass props here*/}
     <section className="pt-12">
       <Card className="max-w-screen-xl" />
     </section>
@@ -27,9 +27,7 @@ const IndexPage = () => (
       <Card />
     </section>
 
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )

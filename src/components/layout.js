@@ -12,15 +12,15 @@ import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  const data = StaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  //const data = StaticQuery(graphql`
+  //  query SiteTitleQuery {
+  //    site {
+  //      siteMetadata {
+  //        title
+  //      }
+  //    }
+  //  }
+  //`)
 
   return (
     <>

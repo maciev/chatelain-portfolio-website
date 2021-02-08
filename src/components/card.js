@@ -2,9 +2,9 @@ import React from "react"
 
 function Card() {
   return (
-    <div class="flex flex-col p-4 max-w-screen-l bg-red-400 items-center">
+    <div class="flex flex-col p-4 max-w-screen-l items-center">
       <video
-        class="w-full max-w-xs "
+        class="w-full max-w-xs shadow-md"
         src="https://d33wubrfki0l68.cloudfront.net/6a3e28ebb4e48af0d98ed08fa70009bd0d4c7978/6c358/assets/img/add-new-task.mp4"
         preload="auto"
         autoplay="autoplay"
@@ -12,7 +12,7 @@ function Card() {
         muted="muted"
         playsinline="playsInline"
       ></video>
-      <div>
+      <div class="bg-white rounded-md px-4 py-2 mt-4 shadow-md">
         <h1 class="font-bold text-lg">Reddit Clone</h1>
         <h3 class="font-bold text-sm">
           Stack: React, TypeORM, PostgreSQL, Typescript, TailwindCSS

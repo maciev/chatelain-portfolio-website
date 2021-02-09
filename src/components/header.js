@@ -12,7 +12,7 @@ function Header({ siteTitle }) {
           {siteTitle}
         </span>
       </div>
-      <div className="block lg:hidden">
+      <div className="block lg:hidden md:hidden">
         <button
           onClick={() => toggleExpansion(!isExpanded)}
           className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-white hover:border-white"
@@ -30,9 +30,9 @@ function Header({ siteTitle }) {
       <div
         className={`${
           isExpanded ? `block` : `hidden`
-        } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
+        } w-full block flex-grow  md:flex md:w-auto lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-sm flex lg:flex-grow md:flex-grow  justify-end bg-black">
+        <div className="text-sm flex lg:flex-grow md:flex-grow justify-end ">
           <Link
             to={`/`}
             href="#responsive-header"

@@ -3,30 +3,22 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from "../components/card"
+import Blog from "../pages"
 
 const IndexPage = () => {
-  //const [dataStates, setdataStates] = useState([
-  //  {
-  //    video:
-  //      "https://static.onecms.io/wp-content/uploads/sites/20/2020/04/07/elmo.jpg",
-  //    title: "Elmo title",
-  //    stack: "Elmo and Bernie",
-  //    description: "The bnest of th best",
-  //    date: "September 1979",
-  //  },
-  //])
-
   return (
     <Layout>
-      <SEO title="Home" />
-      <h1 className="pb-12">Hi, I'm Andrew 👋</h1>
-      <p>
-        I'm a recent graduate from General Assembly, looking to make an impact
-        in a fast-moving front-end team
-      </p>
-      <p className="border-b-2 border-indigo-600 pb-6">
-        My specialities include React, Redux, Prisma, TypeORM, and others
-      </p>
+      <div className="max-w-lg m-auto">
+        <SEO title="Home" />
+        <h1 className="pb-12">Hi, I'm Andrew 👋</h1>
+        <p>
+          I'm a recent graduate from General Assembly, looking to make an impact
+          in a fast-moving front-end team
+        </p>
+        <p className="border-b-2 border-indigo-600 pb-6">
+          My specialities include React, Redux, Prisma, TypeORM, and others
+        </p>
+      </div>
       <section className="pt-12">
         <Card
           className="max-w-screen-xl"

@@ -105,7 +105,10 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 move header links to right side (end)-->
 <!--apply flex row to index cards on front page-->
 <!--allow cards to flow - 1 per row-->
-
-<!--TO-DO-->
 <!--pass props to cards-->
 <!--header, pages to show when md size-->
+<!--alignment of card description text to top profile text-->
+
+<!--TO-DO-->
+<!--add material UI linkedin/github icons?-->
+<!--make menu bar open transition smoother/align leftwards-->

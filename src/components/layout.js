@@ -12,21 +12,21 @@ import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  //const data = StaticQuery(graphql`
-  //  query SiteTitleQuery {
-  //    site {
-  //      siteMetadata {
-  //        title
-  //      }
-  //    }
-  //  }
-  //`)
+  const data = StaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
 
   return (
     <>
-      <div className="bg-gradient-to-tl from-blue-500  to-white opacity-75 ">
+      <div className="opacity-75 bg-gradient-to-tl from-blue-500 to-white">
         <Header />
-        <main className="py-24 px-16 ">{children}</main>
+        <main className="px-16 py-24">{children}</main>
 
         <footer>
           © {new Date().getFullYear()}, Built with

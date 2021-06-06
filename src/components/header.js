@@ -32,20 +32,22 @@ function Header({ siteTitle }) {
           isExpanded ? `block` : `hidden`
         } w-full block flex-grow  md:flex md:w-auto lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-sm flex lg:flex-grow md:flex-grow justify-end ">
-          <Link
-            to={`/`}
-            href="#responsive-header"
-            className="block mt-4 mr-4 text-white lg:inline-block  lg:mt-0 hover:text-white"
-          >
-            Home
-          </Link>
-          <Link
-            to={`/blog`}
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
-          >
-            Blog
-          </Link>
+        <div className="flex flex-row justify-end text-sm lg:flex-grow md:flex-grow ">
+          <b className="flex flex-row">
+            <Link
+              to={`/`}
+              href="#responsive-header"
+              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            >
+              Home
+            </Link>
+            <Link
+              to={`/blog`}
+              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            >
+              Blog
+            </Link>
+          </b>
         </div>
         <div></div>
       </div>

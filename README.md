@@ -108,7 +108,11 @@ move header links to right side (end)-->
 <!--pass props to cards-->
 <!--header, pages to show when md size-->
 <!--alignment of card description text to top profile text-->
+<!--make homepage gifs into rows? not cols?-->
+<!--lighten home page divider bar-->
 
 <!--TO-DO-->
-<!--add material UI linkedin/github icons?-->
-<!--make menu bar open transition smoother/align leftwards-->
+<!--row center align blog post with picture-->
+<!--create back button from blog to home-->
+<!--better design project description box? take inspiration from dribble-->
+<!--keep blue gradient for top component, alternate gray for each project on homescreen-->

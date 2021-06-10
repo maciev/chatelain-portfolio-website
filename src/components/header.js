@@ -36,7 +36,7 @@ function Header({ siteTitle }) {
           <b className="flex flex-row">
             <Link
               to={`/`}
-              href="#responsive-header"
+              href="#responsive-Header"
               className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
             >
               Home

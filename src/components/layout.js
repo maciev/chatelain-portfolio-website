@@ -7,21 +7,10 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  const data = StaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
       <div className="opacity-75 bg-gradient-to-tl from-blue-500 to-white">

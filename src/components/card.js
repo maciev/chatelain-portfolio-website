@@ -9,7 +9,7 @@ const Card = ({ video, title, stack, description, date }) => {
         onMouseOver={event => event.target.play()}
         onMouseOut={event => event.target.pause()}
         loop="loop"
-        track="false"
+        track="true"
         muted="muted"
         playsinline="playsInline"
       ></video>

@@ -1,9 +1,8 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from "../components/card"
-import Blog from "../pages"
 
 const IndexPage = () => {
   return (
@@ -11,7 +10,9 @@ const IndexPage = () => {
       {/*make top part into seperate, full width component*/}
       <div className="max-w-lg m-auto ">
         <SEO title="Home" />
-        <h1 className="pb-12">Hi, I'm Andrew 👋</h1>
+        <h1 className="pb-12">
+          Hi, I'm Andrew <span>👋</span>
+        </h1>
         <p>
           I'm a recent graduate from General Assembly, looking to make an impact
           in a fast-moving front-end team

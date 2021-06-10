@@ -112,7 +112,7 @@ move header links to right side (end)-->
 <!--lighten home page divider bar-->
 
 <!--TO-DO-->
-<!--row center align blog post with picture-->
+<!--REDO BLOG PAGE - SEE READING LIST-->
 <!--create back button from blog to home-->
 <!--better design project description box? take inspiration from dribble-->
 <!--keep blue gradient for top component, alternate gray for each project on homescreen-->

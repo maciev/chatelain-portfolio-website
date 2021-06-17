@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     fontFamily: {
       granville: ["ui-granville"],
+      Noto: ["Noto Sans"],
     },
   },
   variants: {},

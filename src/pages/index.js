@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from "../components/card"
@@ -14,8 +13,8 @@ const IndexPage = () => {
           Hi, I'm Andrew <span>👋</span>
         </h1>
         <p>
-          I'm a recent graduate from General Assembly, looking to make an impact
-          in a fast-moving front-end team
+          Sales professional turned front-end developer. Passionate about
+          building beautiful and performant platforms.
         </p>
         <p className="pb-6 border-b-2 border-indigo-400">
           My specialities include React, Redux, Prisma, TypeORM, and others
@@ -51,10 +50,6 @@ const IndexPage = () => {
             date="DEC 2020"
           />
         </section>
-      </div>
-
-      <div className="flex flex-row justify-center">
-        <Link to="/page-2/">Go to page 2</Link>
       </div>
     </Layout>
   )

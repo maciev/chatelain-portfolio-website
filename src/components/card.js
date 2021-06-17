@@ -2,25 +2,25 @@ import React from "react"
 
 const Card = ({ video, title, stack, description, date }) => {
   return (
-    <div class="flex flex-col mx-auto py-4 items-center">
+    <div className="flex flex-col items-center py-4 mx-auto">
       <video
-        class="w-full md:w-4/5 shadow-md rounded-lg"
+        className="w-full rounded-lg shadow-md md:w-4/5"
         src={video}
         onMouseOver={event => event.target.play()}
         onMouseOut={event => event.target.pause()}
         loop="loop"
         track="true"
         muted="muted"
-        playsinline="playsInline"
+        playsInline="playsInline"
       ></video>
-      <div class="bg-white md:w-4/5  rounded-md px-4 py-2 mt-4 shadow-md flex flex-col items-start">
-        <h1 class="font-bold text-lg">{title}</h1>
-        <h3 class="font-bold text-sm">{stack}</h3>
-        <p class="py-4">{description}</p>
+      <div className="flex flex-col items-start px-4 py-2 mt-4 bg-white rounded-md shadow-md md:w-4/5">
+        <h1 className="pb-2 text-lg font-bold">{title}</h1>
+        <h3 className="pb-2 text-sm font-bold">{stack}</h3>
+        <p className="pb-2">{description}</p>
 
-        <div class="w-full md:w-1/3 text-sm font-medium">{date}</div>
+        <div className="pb-2 text-xs font-bold text-gray-500">{date}</div>
 
-        <div class=" w-full text-sm font-small pt-2">
+        <div className="w-full text-sm font-semibold">
           <a>SEE IT IN ACTION</a>
         </div>
       </div>

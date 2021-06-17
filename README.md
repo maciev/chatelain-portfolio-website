@@ -112,6 +112,7 @@ move header links to right side (end)-->
 <!--lighten home page divider bar-->
 
 <!--TO-DO-->
+<!--change font-->
 <!--REDO BLOG PAGE - SEE READING LIST-->
 <!--create back button from blog to home-->
 <!--better design project description box? take inspiration from dribble-->

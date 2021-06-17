@@ -14,7 +14,7 @@ function Header({ siteTitle }) {
       </div>
       <div className="block lg:hidden md:hidden">
         <button
-          onClick={() => toggleExpansion(!isExpanded)}
+          //onClick={() => toggleExpansion(!isExpanded)}
           className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-white hover:border-white"
         >
           <svg

@@ -1,15 +1,15 @@
 import React from "react"
 
-function Blogcard() {
+function Largecard() {
   return (
-    <div className="flex flex-col items-center mx-4 w-72">
+    <div className="flex flex-row items-center mt-12 ml-4 ">
       <img
-        className="rounded"
+        className="rounded w-96 "
         src="https://dwinawan.com/blog/thumb_article9.jpg"
         alt=""
       />
 
-      <div className="flex flex-col items-start w-full max-w-lg mt-2 ">
+      <div className="flex flex-col w-full ml-4 ">
         <h1 className="pb-2 text-xs font-bold text-gray-400">June 9, 2021</h1>
         <h3 className="pb-2 text-lg font-bold">
           How to easily pass Props to React Components
@@ -23,4 +23,4 @@ function Blogcard() {
   )
 }
 
-export default Blogcard
+export default Largecard

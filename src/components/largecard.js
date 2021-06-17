@@ -4,7 +4,7 @@ function Largecard() {
   return (
     <div className="flex flex-row items-center mt-12 ml-4 ">
       <img
-        className="rounded w-96 "
+        className="rounded max-w-72 "
         src="https://dwinawan.com/blog/thumb_article9.jpg"
         alt=""
       />

@@ -6,7 +6,6 @@ import Card from "../components/card"
 const IndexPage = () => {
   return (
     <Layout>
-      {/*make top part into seperate, full width component*/}
       <div className="max-w-lg m-auto ">
         <SEO title="Home" />
         <h1 className="pb-12">
